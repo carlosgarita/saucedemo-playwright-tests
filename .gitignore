@@ -1,0 +1,30 @@
+# Dependencias
+node_modules/
+
+# Reportes y resultados de Playwright
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Archivos de video y screenshots de tests
+videos/
+screenshots/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+.env.local
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
